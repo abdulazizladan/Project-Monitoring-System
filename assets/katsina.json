@@ -1,0 +1,108 @@
+{
+    "name" : "Katsina",
+    "capital"  : "Katsina",
+    "LGA" : [
+        {
+            "name" : "Bakori"
+        },
+        {
+            "name" : "Batagarawa"
+        },
+        {
+            "name" : "Batsari"
+        },
+        {
+            "name" : "Baure"
+        },
+        {
+            "name" : "Bindawa"
+        },
+        {
+            "name" : "Charanchi"
+        },
+        {
+            "name" : "Dan Musa"
+        },
+        {
+            "name" : "Dandume"
+        },
+        {
+            "name" : "Danja"
+        },
+        {
+            "name" : "Daura"
+        },
+        {
+            "name" : "Dutsi"
+        },
+        {
+            "name" : "Dutsin-Ma"
+        },
+        {
+            "name" : "Faskari"
+        },
+        {
+            "name" : "Funtua"
+        },
+        {
+            "name" : "Ingawa"
+        },
+        {
+            "name" : "Jibia"
+        },
+        {
+            "name" : "Kafur"
+        },
+        {
+            "name" : "Kaita"
+        },
+        {
+            "name" : "Kankara"
+        },
+        {
+            "name" : "Kankia"
+        },
+        {
+            "name" : "Katsina"
+        },
+        {
+            "name" : "Kurfi"
+        },
+        {
+            "name" : "Kusada"
+        },
+        {
+            "name" : "Mai'Adua"
+        },
+        {
+            "name" : "Malumfashi"
+        },
+        {
+            "name" : "Mani"
+        },
+        {
+            "name" : "Mashi"
+        },
+        {
+            "name" : "Matazu"
+        },
+        {
+            "name" : "Musawa"
+        },
+        {
+            "name" : "Rimi"
+        },
+        {
+            "name" : "Sabuwa"
+        },
+        {
+            "name" : "Safana"
+        },
+        {
+            "name" : "Sandamu"
+        },
+        {
+            "name" : "Zango"
+        }
+    ]
+}
