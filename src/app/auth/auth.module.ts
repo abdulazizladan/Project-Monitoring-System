@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 //MaterialModules
 import { MatCardModule } from '@angular/material/card';
@@ -20,6 +21,7 @@ import { PasswordResetComponent } from './components/password-reset/password-res
     CommonModule,
     AuthRoutingModule,
     ReactiveFormsModule,
+    HttpClientModule,
     MatCardModule,
     MatButtonModule,
     MatIconModule,

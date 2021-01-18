@@ -4,9 +4,13 @@
         <mat-card fxFlex.sm="100%" fxFlex="320px" class="mat-elevation-z5">
 
             <mat-card-header>
+                <img matCardAvatar src="">
                 <mat-card-title>
                     Login
                 </mat-card-title>
+                <mat-card-subtitle>
+                    Enter Login credentals here
+                </mat-card-subtitle>
             </mat-card-header>
 
             <mat-card-content fxLayout="column">
@@ -14,19 +18,19 @@
                 <mat-form-field appearance="outline">
                     <mat-label>email</mat-label>
                     <input matInput type="email" formControlName="email">
-                    <mat-icon matSuffix>mail</mat-icon>
+                    <mat-icon matSuffix>person_outline</mat-icon>
                 </mat-form-field>
 
                 <mat-form-field appearance="outline"> 
                     <mat-label>password</mat-label>
                     <input type="password" matInput formControlName="password">
-                    <mat-icon matSuffix>lock</mat-icon>
+                    <mat-icon matSuffix>lock_outline</mat-icon>
                 </mat-form-field>
 
             </mat-card-content>
 
             <mat-card-actions>
-                <button fxFlex="1 1 auto" mat-flat-button color="primary">Login</button>
+                <button [disabled]="loginForm.invalid" fxFlex="1 1 auto" mat-flat-button color="primary" (click)="login()">Login</button>
             </mat-card-actions>
 
         </mat-card>

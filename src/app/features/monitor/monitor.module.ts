@@ -1,11 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { MonitorRoutingModule } from './monitor-routing.module';
-
-
 @NgModule({
-  declarations: [],
+  declarations: [DashboardComponent],
   imports: [
     CommonModule,
     MonitorRoutingModule

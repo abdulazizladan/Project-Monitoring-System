@@ -9,9 +9,9 @@ import { AuthService } from '../../services/auth.service';
 })
 export class LoginComponent implements OnInit {
   
-  public loginForm  : FormGroup;
+  readonly loginForm  : FormGroup;
 
-  constructor(private fb : FormBuilder){ 
+  constructor(private fb : FormBuilder, private _auth : AuthService){ 
     this.loginForm = this.fb.group({
     email : ['', [
       Validators.email
@@ -20,6 +20,17 @@ export class LoginComponent implements OnInit {
       Validators.required
     ]]
   });
+  }
+
+  login(){
+    this._auth.login(this.loginForm.value).subscribe(
+      res => {
+        console.log(res);
+      },
+      err => {
+        console.log("Inable to login")
+      }    
+    )
   }
 
   ngOnInit(): void {
