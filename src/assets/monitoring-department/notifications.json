@@ -1,0 +1,62 @@
+[
+    {
+        "avatar" : "01.jpg",
+        "contractor" : "Gharzali Construction",
+        "author" : "Adamu Ilyasu",
+        "time" : "10:32am 14-01-2021",
+        "content" : [
+            {
+                "header" : "Supplied 500 sets of student furniture to site",
+                "body" : "The contractor has supplied 500 sets of furniture to the site, GDSS Dabai, as agreed. The furniture have been tested and are guaranteed to last a minimum of 10 years under reasonable use."
+            }
+        ]
+    },
+    {
+        "avatar" : "02.jpg",
+        "contractor" : "Haske Medicals",
+        "author" : "Saratu Aliyu",
+        "time" : "05:56pm 10-01-2021",
+        "content" : [
+            {
+                "header" : "Supplied 200 cartons of vaccine",
+                "body" : "The contractor has supplied 200 cartons of polio vaccines to Kafur as agreed. Random testing has been carried out by the local laboratory and administration is to commence upon approval of local area council."
+            }
+        ]
+    },
+    {
+        "avatar" : "09.jpg",
+        "contractor" : "Ya'u Vets Services",
+        "author" : "Musa Dayyabu",
+        "time" : "09:01am 04-01-2021",
+        "content" : [
+            {
+                "header" : "Vaccinated 250 heads of cattle",
+                "body" : "The contractor has carried out vaccination of 250 head of cattle in Sambo Farms under supervision of the Farm Administrator as agreed."
+            }
+        ]
+    },
+    {
+        "avatar" : "10.jpg",
+        "contractor" : "CCE Construction",
+        "author" : "Yusuf Ilyasu",
+        "time" : "1:02pm 02-01-2021",
+        "content" : [
+            {
+                "header" : "Constructed a block of 3 classrooms at Funtua LEA",
+                "body" : "The contractor has completed construction of a block of 3 classrooms and handed over the key to the principal as agreed."
+            }
+        ]
+    },
+    {
+        "avatar" : "12.png",
+        "contractor" : "Ladanski Corps",
+        "author" : "Abdulaziz Ladan",
+        "time" : "1:02pm 02-01-2021",
+        "content" : [
+            {
+                "header" : "Development of Staff Movement Monitoring Software",
+                "body" : "The contractor has completed development and deployment of the above software as agreed. Testing has commenced in the selected agencies."
+            }
+        ]
+    }
+]

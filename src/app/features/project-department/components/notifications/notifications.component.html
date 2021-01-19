@@ -1,1 +1,43 @@
-<p>notifications works!</p>
+<div fxLayout="column" fxLayoutGap="20px">
+    <mat-card *ngFor="let notification of notifications">
+        
+        
+
+        <mat-card-header>
+
+            <img matCardAvatar src="/assets/logos/{{notification.avatar}}">
+
+            <mat-card-title>
+                {{ notification.contractor }}
+            </mat-card-title>
+            <mat-card-subtitle>
+                {{ notification.author}}
+            </mat-card-subtitle>
+        </mat-card-header>
+
+        <mat-card-content class="mat-typography">
+            <div *ngFor="let item of notification.content">
+                <h2>
+                    {{ item.header }}
+                </h2>
+                <p>
+                    {{ item.body }}
+                </p>
+            </div>
+            
+        </mat-card-content>
+
+        <mat-card-actions align="end">
+            <button mat-flat-button color="accent" (click)="openDialog()">
+                <mat-icon>assignment</mat-icon>
+                View details
+            </button>
+        </mat-card-actions>
+
+        <mat-card-footer style="padding: 10px">
+            {{ notification.time }}
+        </mat-card-footer>
+
+    </mat-card>
+    
+</div>

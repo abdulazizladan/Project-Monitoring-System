@@ -4,7 +4,7 @@
         <mat-card fxFlex.sm="100%" fxFlex="320px" class="mat-elevation-z5">
 
             <mat-card-header>
-                <img matCardAvatar src="">
+                <img matCardAvatar src="./assets/logos/coat.png">
                 <mat-card-title>
                     Login
                 </mat-card-title>
@@ -30,7 +30,7 @@
             </mat-card-content>
 
             <mat-card-actions>
-                <button [disabled]="loginForm.invalid" fxFlex="1 1 auto" mat-flat-button color="primary" (click)="login()">Login</button>
+                <button [disabled]="loginForm.invalid" fxFlex="1 1 auto" mat-flat-button color="primary" (click)="login()" routerLink="/admin">Login</button>
             </mat-card-actions>
 
         </mat-card>
