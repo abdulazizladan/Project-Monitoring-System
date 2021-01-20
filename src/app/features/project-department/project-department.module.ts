@@ -13,6 +13,8 @@ import { MessagesComponent } from './components/messages/messages.component';
 //Material components
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatCardModule } from '@angular/material/card';
+import { MatInputModule } from '@angular/material/input';
+import { MatSelectModule } from '@angular/material/select';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -24,6 +26,7 @@ import { MatTableModule } from '@angular/material/table';
 import { ProjectDepartmentRoutingModule } from './project-department-routing.module';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { StatusDetailsComponent } from './components/status-details/status-details.component';
+import { ProjectDetailComponent } from './components/project-detail/project-detail.component';
 
 
 @NgModule({
@@ -34,7 +37,7 @@ import { StatusDetailsComponent } from './components/status-details/status-detai
     NotificationsComponent, 
     ProjectsComponent, 
     ContractorsComponent, 
-    MessagesComponent, StatusDetailsComponent
+    MessagesComponent, StatusDetailsComponent, ProjectDetailComponent
   ],
   imports: [
     CommonModule,
@@ -42,6 +45,8 @@ import { StatusDetailsComponent } from './components/status-details/status-detai
     HttpClientModule,
     MatDialogModule,
     MatCardModule,
+    MatInputModule,
+    MatSelectModule,
     MatIconModule,
     MatButtonModule,
     MatToolbarModule,

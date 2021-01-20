@@ -9,7 +9,7 @@ export class NotificationsService {
   private getFeedsUrl : string;
 
   constructor( private _http : HttpClient){ 
-    this.getFeedsUrl = "/assets/monitoring-department/notifications.json";
+    this.getFeedsUrl = "./assets/monitoring-department/notifications.json";
   }
 
   getNotifications(){

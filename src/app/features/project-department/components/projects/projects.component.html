@@ -1,1 +1,37 @@
-<p>projects works!</p>
+<mat-toolbar color="accent">
+    <mat-toolbar-row>
+        <button mat-flat-button color="primary" (click)="openAddProjectDialog()">
+            <mat-icon>add</mat-icon> Add Project
+        </button>
+    </mat-toolbar-row>
+</mat-toolbar>
+<div style="padding: 20px;">
+
+    <table mat-table [dataSource]="dataSource" class="mat-elevation-z8" style="width: 100%">
+
+        <!-- ID column -->
+        <ng-container matColumnDef="title">
+            <th mat-header-cell *matHeaderCellDef> Title. </th>
+            <td mat-cell *matCellDef="let project">  {{project.title}} </td>
+        </ng-container>
+
+        <!-- Contractor column-->
+        <ng-container matColumnDef="contractor">
+            <th mat-header-cell *matHeaderCellDef> Contractor. </th>
+            <td mat-cell *matCellDef="let project"> {{project.contractor}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="id">
+            <th mat-header-cell *matHeaderCellDef> Actions. </th>
+            <td mat-cell *matCellDef="let project"> 
+                <button mat-flat-button color="accent" (click)="openProjectDetailDialog(project.id)">
+                    Details
+                </button> 
+            </td>
+        </ng-container>
+
+        <tr mat-header-row *matHeaderRowDef="columnsToDisplay"></tr>
+        <tr mat-row *matRowDef="let row; columns: columnsToDisplay;"></tr>
+    </table>
+
+</div>

@@ -1,1 +1,49 @@
-<p>add-project works!</p>
+<form [formGroup]="addProjectForm">
+<h1 matDialogTitle>Add new project</h1>
+
+<mat-dialog-content fxLayout="column">
+        
+        <mat-form-field>
+            <mat-label>Contractor name</mat-label>
+            <input matInput type="text" formControlName="contractor">
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Project title</mat-label>
+            <input matInput type="text" formControlName="title">
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Project description</mat-label>
+            <input matInput type="text" formControlName="description">
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>LGA</mat-label>
+            <mat-select formControlName="LGA">
+                <mat-option *ngFor="let LGA of LGAs" value=LGA.name>
+                    {{LGA.name}}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Town</mat-label>
+            <input matInput type="text" formControlName="town">
+        </mat-form-field>
+
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+    
+    <button mat-flat-button color="warn" matDialogClose>
+        <mat-icon>close</mat-icon>
+        Close dialog    
+    </button>
+    <button mat-flat-button color="primary" [disabled]=addProjectForm.invalid>
+        <mat-icon>add</mat-icon>
+        Add Project
+    </button>
+    
+</mat-dialog-actions>
+</form>

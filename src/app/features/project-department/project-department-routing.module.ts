@@ -15,7 +15,7 @@ const routes: Routes = [
     children : [
       {
         path : '',
-        redirectTo : 'home'
+        redirectTo : 'projects'
       },
       {
         path : 'home',

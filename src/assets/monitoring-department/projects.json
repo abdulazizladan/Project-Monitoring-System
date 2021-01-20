@@ -1,0 +1,46 @@
+[
+    {
+        "id" : 1,
+        "contractor" : "Ya'u Global LTD",
+        "title" : "Supply of Fertilizers to Kafur LGA",
+        "description" : "",
+        "status" : {
+            "date_started" : "",
+            "date_completed" : null,
+            "verified_by" : null
+        },
+        "location" : {
+            "LGA" : "",
+            "town" : ""
+        },
+        "milestones" : [
+            {
+                "title" : "",
+                "description" : ""
+            }
+        ]
+        
+    },
+    {
+        "id" : 2,
+        "contractor" : "Halilu & Sons",
+        "title" : "Repair of 3 classrooms at LEA Dabai",
+        "description" : "",
+        "status" : {
+            "date_started" : "",
+            "date_completed" : null,
+            "verified_by" : null
+        },
+        "location" : {
+            "LGA" : "",
+            "town" : ""
+        },
+        "milestones" : [
+            {
+                "title" : "",
+                "description" : ""
+            }
+        ]
+        
+    }
+]
