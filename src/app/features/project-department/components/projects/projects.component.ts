@@ -38,7 +38,8 @@ export class ProjectsComponent implements OnInit {
 
   openAddProjectDialog(){
     const dialogRef = this.dialog.open(AddProjectComponent, {
-      width : "90%"
+      width : "90%",
+      disableClose : true
     });    
   }
 
