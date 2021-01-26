@@ -5,11 +5,11 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
 const routes: Routes = [
   
   {
-    path : 'abc',
+    path : '',
     loadChildren : ()=>import('./auth/auth.module').then(mod => mod.AuthModule)
   },
   {
-    path : '',
+    path : 'admin',
     loadChildren : ()=>import('./features/project-department/project-department.module').then(mod => mod.ProjectDepartmentModule)
   },
   {

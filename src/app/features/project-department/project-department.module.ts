@@ -11,6 +11,7 @@ import { ContractorsComponent } from './components/contractors/contractors.compo
 import { MessagesComponent } from './components/messages/messages.component';
 
 //Material components
+import { MatListModule } from '@angular/material/list';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatCardModule } from '@angular/material/card';
 import { MatInputModule } from '@angular/material/input';
@@ -43,6 +44,7 @@ import { ProjectDetailComponent } from './components/project-detail/project-deta
     CommonModule,
     ReactiveFormsModule,
     HttpClientModule,
+    MatListModule,
     MatDialogModule,
     MatCardModule,
     MatInputModule,

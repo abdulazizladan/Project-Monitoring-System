@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormBuilder, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-add-contractor',
@@ -7,9 +8,41 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AddContractorComponent implements OnInit {
 
-  constructor() { }
+  AddContractorForm : any;
+
+  constructor( private fb : FormBuilder ){ 
+
+  }
 
   ngOnInit(): void {
+    this.AddContractorForm = this.fb.group({
+      name : ['', [
+        Validators.required
+      ]],
+      contact_first_name : ['', [
+        Validators.required
+      ]],
+      contact_last_name : ['', [
+        Validators.required
+      ]],
+      contact_phone_number : ['', [
+        Validators.required
+      ]],
+      contact_email : ['', [
+        Validators.required
+      ]],
+      contact_password : ['', [
+        Validators.required,
+        Validators.min(8)
+      ]],
+      contact_email_confirm : ['', [
+        Validators.required
+      ]]
+    })
+  }
+
+  addContractor(){
+
   }
 
 }
