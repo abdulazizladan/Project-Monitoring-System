@@ -35,8 +35,9 @@ export class AddContractorComponent implements OnInit {
         Validators.required,
         Validators.min(8)
       ]],
-      contact_email_confirm : ['', [
-        Validators.required
+      contact_password_confirm : ['', [
+        Validators.required,
+        Validators.min(8)
       ]]
     })
   }

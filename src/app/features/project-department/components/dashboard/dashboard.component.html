@@ -10,8 +10,8 @@
                     <mat-icon>more_vert</mat-icon>
                 </button>
                 <mat-menu #menu="matMenu">
-                    <button mat-menu-item routerLink="">
-                        <mat-icon>exit_to_app</mat-icon>Logout
+                    <button mat-menu-item color="primary" routerLink="">
+                        <mat-icon color="primary">exit_to_app</mat-icon>Logout
                     </button>
                 </mat-menu>        
             </mat-toolbar-row>
@@ -22,17 +22,17 @@
             
             <mat-sidenav id="sidenav" #sidenav mode="over" align="start" fxLayout="column">
 
-                <button mat-flat-button routerLink="projects" (click)="sidenav.toggle()">
+                <button mat-button color="primary" routerLink="projects" (click)="sidenav.toggle()">
                     <mat-icon>notifications</mat-icon>
                     Projects
                 </button>
 
-                <button mat-flat-button routerLink="contractors" (click)="sidenav.toggle()">
+                <button mat-button color="primary" routerLink="contractors" (click)="sidenav.toggle()">
                     <mat-icon>person</mat-icon>
                     Contractors
                 </button>
 
-                <button mat-flat-button routerLink="messages" (click)="sidenav.toggle()">
+                <button mat-button routerLink="messages" disabled (click)="sidenav.toggle()">
                     <mat-icon>email</mat-icon>
                     Messages
                 </button>
@@ -41,6 +41,7 @@
             <div style="padding: 0px">
                 <router-outlet></router-outlet>
             </div>
+
         </mat-sidenav-container>
 
  

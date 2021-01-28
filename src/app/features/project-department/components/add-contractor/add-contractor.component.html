@@ -1,26 +1,50 @@
 <h1 matDialogTitle>Add Contractor</h1>
 <form [formGroup]="AddContractorForm">
+    <mat-dialog-content fxLayout="column">
 
-<mat-dialog-content fxLayout="column">
+        <mat-form-field appearance="outline">
+            <mat-label>Contrator company</mat-label>
+            <input matInput type="text" formControlName="name">
+        </mat-form-field>
 
-    <mat-form-field appearance="outline">
-        <mat-label>Contrator</mat-label>
-        <input matInput type="text" formControlName="name">
-    </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Contact's first name</mat-label>
+            <input matInput type="text" formControlName="contact_first_name">
+        </mat-form-field>
 
-    <mat-form-field appearance="outline">
-        <mat-label>Contact's first name</mat-label>
-        <input matInput type="text" formControlName="contact_first_name">
-    </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Contact's last name</mat-label>
+            <input matInput type="text" formControlName="contact_last_name">
+        </mat-form-field>
 
-</mat-dialog-content>
+        <mat-form-field appearance="outline">
+            <mat-label>Contact's phone number</mat-label>
+            <input matInput type="phone" formControlName="contact_phone_number">
+        </mat-form-field>
 
-<mat-dialog-actions align="end">
-    <button mat-flat-button color="warn" matDialogClose>
-        <mat-icon>close</mat-icon>Cancel
-    </button>
-    <button mat-flat-button color="accent" disabled="AddContractorForm.inv">
-        <mat-icon>add</mat-icon>Add Contractor
-    </button>
-</mat-dialog-actions>
+        <mat-form-field appearance="outline">
+            <mat-label>Contact's email</mat-label>
+            <input matInput type="email" formControlName="contact_email">
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <mat-label>Password</mat-label>
+            <input matInput type="password" formControlName="contact_password">
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <mat-label>Confirm password</mat-label>
+            <input matInput type="password" formControlName="contact_password_confirm">
+        </mat-form-field>
+
+    </mat-dialog-content>
+
+    <mat-dialog-actions align="end">
+        <button mat-flat-button color="warn" matDialogClose>
+            <mat-icon>close</mat-icon>Cancel
+        </button>
+        <button mat-flat-button color="accent" [disabled]="AddContractorForm.invalid">
+            <mat-icon>add</mat-icon>Add Contractor
+        </button>
+    </mat-dialog-actions>
 </form>
