@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1611827817545,
+  "timestamp": 1611916517168,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -16,13 +16,13 @@
         "/3.727738fedbe147d2bb1c.js",
         "/7.80e1956999128521bd56.js",
         "/8.28f2fc1cce4612c3dec9.js",
-        "/9.2dec019107c9187887ab.js",
+        "/9.11a0a6282d64f9a1ea52.js",
         "/favicon.ico",
         "/index.html",
         "/main.8c8fd9e8ecba42b89617.js",
         "/manifest.webmanifest",
         "/polyfills.fcb7cfe00e3357c920d9.js",
-        "/runtime.e11d41d50d0fba0b7176.js",
+        "/runtime.a6e6783ef54531ded21b.js",
         "/styles.d8f0cdf31749892a14da.css"
       ],
       "patterns": []
@@ -52,6 +52,10 @@
         "/assets/icons/icon-512x512.png",
         "/assets/icons/icon-72x72.png",
         "/assets/icons/icon-96x96.png",
+        "/assets/imgs/01.JPG",
+        "/assets/imgs/02.JPG",
+        "/assets/imgs/03.jpg",
+        "/assets/imgs/banner.jpg",
         "/assets/katsina.json",
         "/assets/logos/01.jpg",
         "/assets/logos/02.jpg",
@@ -81,7 +85,7 @@
     "/3.727738fedbe147d2bb1c.js": "1f3d89f7c5150fa8a878a4aef61280e8f72e9753",
     "/7.80e1956999128521bd56.js": "d414fc016e4f96fa13edf944c8981f600f3b3549",
     "/8.28f2fc1cce4612c3dec9.js": "e30d3587b3e405ab6d9781be2a328d3ce8b6a5ff",
-    "/9.2dec019107c9187887ab.js": "185441997aaeed9ef1a550d297ab0dbd8d96e4d0",
+    "/9.11a0a6282d64f9a1ea52.js": "dd15bec06f4c8236ae2a652609b93fb8ffb04070",
     "/assets/iconfont/MaterialIcons-Regular.eot": "26fb8cecb5512223277b4d290a24492a0f09ede1",
     "/assets/iconfont/MaterialIcons-Regular.ijmap": "df468e87685c24b2a5d431036d4d5a434efdc28e",
     "/assets/iconfont/MaterialIcons-Regular.svg": "52ad95c4e0691e8c9b8ef97c551a9970eb498ca0",
@@ -99,6 +103,10 @@
     "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
     "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/assets/imgs/01.JPG": "835ed0c90a7880de70b3bdf480861f12a38780af",
+    "/assets/imgs/02.JPG": "bfaa03ed277ef0adf9c4d39f86b6892635309d0a",
+    "/assets/imgs/03.jpg": "cfaf0a89951c8ce58c97dd42215ab243485047d3",
+    "/assets/imgs/banner.jpg": "85dde0365a8797e4293fcdfcbd02d1596958d830",
     "/assets/katsina.json": "9b0c31de723233dd788fde25f330a361fa49e8d7",
     "/assets/logos/01.jpg": "35c940e0d26dbbcdade4a3b907c11902c477d677",
     "/assets/logos/02.jpg": "c56b74e3288fdaf50dd4369e168117107a0f9d94",
@@ -118,11 +126,11 @@
     "/assets/monitoring-department/projects.json": "0e677e66b3978ebeca58fee9ca5270b36ed3930c",
     "/assets/user.json": "60de0d2877a75fd15df14f99548141e728a4b258",
     "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/index.html": "19cb4250555dc866299f1781aa2cd7b2bf0824ec",
+    "/index.html": "ec107ed349b5aeeb4bcedc28fa5c0bbc6749c924",
     "/main.8c8fd9e8ecba42b89617.js": "7f9abd3a093fa79f2d74d6e3f7b525fd36382f87",
     "/manifest.webmanifest": "6e7e57682bc3db4d811ff2131f7fcce332f25451",
     "/polyfills.fcb7cfe00e3357c920d9.js": "49d2dc46272ac7b1e035e93ca3b0f5f07a9e0947",
-    "/runtime.e11d41d50d0fba0b7176.js": "51fa26436571b1d2a9e894de158366ef9cc8bb40",
+    "/runtime.a6e6783ef54531ded21b.js": "32aa16da6af4ea176aab40d0de088c8833723536",
     "/styles.d8f0cdf31749892a14da.css": "c0d457904988ecb1b9881754559528283223c609"
   },
   "navigationUrls": [
